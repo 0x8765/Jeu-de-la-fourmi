@@ -30,18 +30,14 @@ while True:
         Matrice[x][y]=1
         try:
             Ori = orientations[orientations.index(Ori)-1]
-            print(Ori,"c'est passé")
         except:
             Ori = orientations[3]
-            print(Ori,"c'est pas passé")
     elif Matrice[x][y]==1:
         Matrice[x][y]=0
         try:
             Ori = orientations[orientations.index(Ori)+1]
-            print(Ori,"c'est passé")
         except:
             Ori = orientations[0]
-            print(Ori,"c'est pas passé")
 
     plt.imshow(Matrice)
     plt.pause(0.01)
