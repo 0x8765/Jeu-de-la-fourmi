@@ -10,7 +10,7 @@ Le **Jeu de la fourmi** est un automate cellulaire imaginé par **Chris Langton*
 
 Après un certain temps on peut voir qu'elle finit par construire un **chemin répétitif** en forme de "route" infinie.
 
-Dans mon programme, j'ai représenté la grille par une matrice de listes Python imbriquées qui contient des entiers 0 ou 1, **0** pour une case **blanche** et **1** pour une case **noire**. La position et la direction de la fourmi sont mises à jour à chaque étape en fonction des règles ci-dessus.
+Dans mon programme, j'ai représenté la grille par une matrice de listes Python imbriquées qui contiennent des entiers 0 ou 1, **0** pour une case **blanche** et **1** pour une case **noire**. La position et la direction de la fourmi sont mises à jour à chaque étape en fonction des règles ci-dessus.
 
 ## Installation
 
@@ -25,3 +25,5 @@ python3 fourmi.py
 ```
 python fourmi.py
 ```
+
+Projet lié [Jeu de la vie](https://github.com/0x8765/Jeu-de-la-vie)
