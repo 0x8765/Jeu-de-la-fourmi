@@ -14,7 +14,7 @@ Dans mon programme, j'ai représenté la grille par une matrice de listes Python
 
 ## Installation
 
-Pour lancer ce programme sur votre ordinateur, il vous faudra **Python 3.7** et le module **matplotlib**. Voici la commande pour lancer le programme :
+Pour lancer ce programme sur votre ordinateur, il faut **Python 3.7** et le module **matplotlib**. Voici la commande pour lancer le programme :
 
 **macOS / Linux :**  
 ```
